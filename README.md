@@ -10,9 +10,10 @@ TODOS:
 - [ ] style, style and style! (change design)
 - [ ] find more smart looking sentences 
 - [ ] learn how to deploy app
+- [ ] find new font
 
 
 # Images 
-<img src="./assets/md_screens/screen1.png" alt="Welcome Page" width="300">
+<img src="./assets/md_screens/screen1_new.png" alt="Welcome Page" width="300">
 
 <img src="./assets/md_screens/screen2.png" alt="Main Page" width="300">

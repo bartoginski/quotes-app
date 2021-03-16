@@ -6,20 +6,12 @@ import 'package:motivation_app/models/Quote.dart';
 class QuoteRoute extends StatefulWidget {
   @override
   _QuoteRouteState createState() => _QuoteRouteState();
+  final List<Quote> quotes;
+
+  QuoteRoute(this.quotes);
 }
 
 class _QuoteRouteState extends State<QuoteRoute> {
-  final List<Quote> quotes = [
-    Quote(
-        'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.',
-        'Martin Fowler'),
-    Quote('First, solve the problem. Then, write the code.', 'John Johnson'),
-    Quote('Experience is the name everyone gives to their mistakes.',
-        'Oscar Wilde'),
-    Quote('In order to be irreplaceable, one must always be different',
-        'Coco Chanel'),
-  ];
-
   int actualIndex = 0;
 
   @override
@@ -31,11 +23,21 @@ class _QuoteRouteState extends State<QuoteRoute> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Container(child: Text('"${quotes[actualIndex].quote}"')),
+            Container(
+                child: Text(
+              '"${widget.quotes[actualIndex].quote}"',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 20,
+              ),
+            )),
             Container(
               child: Text(
-                '~${quotes[actualIndex].author}',
-                style: TextStyle(fontStyle: FontStyle.italic),
+                '~${widget.quotes[actualIndex].author}',
+                style: TextStyle(
+                  fontStyle: FontStyle.italic,
+                  fontSize: 16,
+                ),
               ),
             ),
             SizedBox(

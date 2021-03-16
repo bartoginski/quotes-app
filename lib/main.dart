@@ -7,7 +7,11 @@ class Main extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Loading(),
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        backgroundColor: Color(0xFFbbf1fa),
+        body: Loading(),
+      ),
     );
   }
 }

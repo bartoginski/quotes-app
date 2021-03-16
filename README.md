@@ -10,3 +10,7 @@ TODOS:
 - [ ] learn how to deploy app
 
 
+# Images 
+<img src="./assets/md_screens/screen1.png" alt="Welcome Page" width="300">
+
+<img src="./assets/md_screens/screen2.png" alt="Main Page" width="300">

@@ -1,3 +1,5 @@
+<img src="./assets/images/ogi.png" alt="Main Page" width="150">
+
 # Empty Readme.md
 This app displays random, maybe funny, sentence by someone smart.
 

@@ -16,4 +16,4 @@ TODOS:
 # Images 
 <img src="./assets/md_screens/screen1_new.png" alt="Welcome Page" width="300">
 
-<img src="./assets/md_screens/screen2.png" alt="Main Page" width="300">
+<img src="./assets/md_screens/screen2_new.png" alt="Main Page" width="300">

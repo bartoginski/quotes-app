@@ -1,5 +1,6 @@
 import 'Quote.dart';
 
+// list of quotes
 final List<Quote> quotes = [
   Quote(
       'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.',

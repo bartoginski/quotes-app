@@ -1,17 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:motivation_app/routes/loading.dart';
+import 'package:motivation_app/routes/QuoteRoute.dart';
 
-void main() => runApp(Main());
+void main() => runApp(Home());
 
-class Main extends StatelessWidget {
+class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: Color(0xFFbbf1fa),
-        body: Loading(),
-      ),
-    );
+    return MaterialApp(home: Scaffold(body: QuoteRoute()));
   }
 }

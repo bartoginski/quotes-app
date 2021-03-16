@@ -12,13 +12,17 @@ class Initial extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Container(child: Image.asset('assets/images/ogi.png')),
+                Container(
+                    child: Image.asset(
+                  'assets/images/ogi.png',
+                  height: 70,
+                )),
                 SizedBox(
                   height: 40,
                 ),
                 Text(
-                  'Press anywhere to proceed...',
-                  style: TextStyle(fontSize: 30),
+                  'Press anywhere to continue...',
+                  style: TextStyle(fontSize: 20),
                   textAlign: TextAlign.center,
                 )
               ]),

@@ -44,6 +44,9 @@ class _QuoteRouteState extends State<QuoteRoute> {
                 height: 20,
               ),
               ElevatedButton(
+                style: ButtonStyle(
+                    backgroundColor:
+                        MaterialStateProperty.all<Color>(Colors.red)),
                 onPressed: () {
                   setState(() {
                     // generates random index n < quotes.length
